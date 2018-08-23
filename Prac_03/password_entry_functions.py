@@ -19,10 +19,8 @@ def get_password():
 def valid_password(password):
     if len(password) < MIN_LENGTH:
         return False
-    count = 0
-    for char in str(len(password)):
-        count += 1
-    return True
+    else:
+        return True
 
 
 def hide_password_display(password):
